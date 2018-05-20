@@ -4,6 +4,20 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    {
+        "type": "gdb",
+        "request": "launch",
+        "name": "Launch Program (SSH)",
+        "target": "${fileDirname}/${fileBasenameNoExtension}.exe",
+        "cwd": "${workspaceRoot}",
+        "ssh": {
+            "host": "jjfjj.win",
+            "cwd": "/home/ubuntu/cl",
+            //"keyfile": "/home/ubuntu/.ssh/id_rsa",
+            "user": "ubuntu",
+            "password": "yhr@320129"
+        }
+    },
         {
             "name": "(Windows) Launch",
             "type": "cppvsdbg",

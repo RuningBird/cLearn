@@ -1,0 +1,10 @@
+﻿  Validating architecture
+  Validating sources
+  Copying sources remotely to 'jjfjj.win'
+  Starting remote build
+  Compiling sources:
+  main.c
+cc1 : warning : command line option ‘-fthreadsafe-statics’ is valid for C++/ObjC++ but not for C
+cc1 : warning : command line option ‘-frtti’ is valid for C++/ObjC++ but not for C
+  Linking objects
+  DemoProject.vcxproj -> D:\文档\Visual Studio 2017\Projects\DemoProject\DemoProject\bin\x64\Debug\DemoProject.out
